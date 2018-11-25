@@ -11,44 +11,6 @@ body{
   height: 100%;
 
 }
-#navigationbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #ff8533;
-  position:fixed;
-  align-items: center;
-  height: 5%;
-  width:100%;
-  z-index: 1;
-
-}
-#navigationbar li {
-  display:inline-block;
-  float: Left;
-}
-#navigationbar li a{
-  display: block;
-  color: black;
-  font-weight:bold;
-  text-align: center;
-  padding: 16px 18px;
-  text-decoration: none;
-}
-
-#navigationbar li a:hover{
-  color:black;
-  background-color:white;
-}
-
-.home{
-  opacity: 0.7;
-}
-.login{
-  float: right !important;
-}
-
 .signin-box{
   max-width:330px;
   max-height:600px;
