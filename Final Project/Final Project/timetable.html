@@ -2,89 +2,110 @@
 <html lang="en">
 
   <head>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Timetable</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet2.css">
+    <title>Timetable</title>
   </head>
 
   <body>
     <div class="header">
-      <h2>Monday 17. January</h2>
-      <h3>2020</h3>
-    </div>
-    <div class="timetable">
-      <div id="time" class="columntitle">
-        <h4>Time</h4>
+      <div class="content">
+        <h1>February</h1>
+        <h2>Week 5</h2>
+        <h2>2018</h2>
       </div>
-      <div id="subject" class="columntitle">
-        <h4>Subject</h4>
-      </div>
-      <div id="to-do" class="columntitle">
-        <h4>To-do</h4>
-      </div>
-
-
-      <div id="åtte" class="timetablebody">
-        <h5>08.15-10.00</h5>
-      </div>
-      <div id="åtte" class="timetablebody">
-        <h5>Norwegian (Social Story)</h5>
-      </div>
-      <div id="åtte" class="timetablebody">
-        <h5>Write a social story about feeling mad</h5>
-        <a href="yay.webp" target="_blank"><button type="button">Done!</button></a>
-      </div>
-      <div id="pause" class="timetablebody">
-        <h5>10.00-10.15</h5>
-      </div>
-      <div id="pause" class="timetablebody">
-        <h5>Break (outside)</h5>
-      </div>
-      <div id="pause" class="timetablebody">
-        <h5>Have fun!</h5>
-      </div>
-      <div id="ti" class="timetablebody">
-        <h5>10.15-12.00</h5>
-      </div>
-      <div id="ti" class="timetablebody">
-        <h5>Maths</h5>
-      </div>
-      <div id="ti" class="timetablebody">
-        <h5>Chapter 10: Exercise 10.2, 10.4, 10.5</h5>
-        <a href="awesome.gif" target="_blank"><button type="button">Done!</button></a>
-        <h5>Chapter 11: Exercise 11.4, 11.5, 11.13</h5>
-        <a href="bravo.gif" target="_blank"><button type="button">Done!</button></a>
-      </div>
-      <div id="lunsj" class="timetablebody">
-        <h5>12.00-12.30</h5>
-      </div>
-      <div id="lunsj" class="timetablebody">
-        <h5>Lunchbreak (inside or outside)</h5>
-      </div>
-      <div id="lunsj" class="timetablebody">
-        <h5>Play a game with someone</h5>
-        <a href="whoopie.gif" target="_blank"><button type="button">Done!</button></a>
-      </div>
-      <div id="12" class="timetablebody">
-        <h5>12.30-14.00</h5>
-      </div>
-      <div id="12" class="timetablebody">
-        <h5>English</h5>
-      </div>
-      <div id="12" class="timetablebody">
-        <h5>Language Comprehension Assignment</h5>
-        <a href="sweet.gif" target="_blank"><button type="button">Done!</button></a>
+      <div class="add">
+        <button type="button" id="rightside"><h3>Export calendar</h3></button>
+        <a href="main.html"><button type="button" id="leftside"><h3>Return to menu</h3></button></a>
       </div>
     </div>
 
-    <div class="secondboxes">
-          <div id="navigationbar">
-              <a  href="#"> Hi Henriette! <br> <img src="train.jpg" alt="train" width="50" height="50"><br>Sign out</a>
-              <a  href="./Homework"><img src="Assignments.png" alt="Homework" width="50" height="50"><br>HOMEWORK</a>
-              <a  href="./Week Plan"><img src="Timetable.png" alt="Week Plan" width="50" height="50"><br>WEEK PLAN</a>
-              <a  href="./Safe Space"><img src="safe place.png" alt="Safe Space" width="50" height="50"><br> SAFE SPACE</a>
-              <a  href="./Mood"><img src="Mood.png" alt="Mood" width="50" height="50"><br> MOOD</a>
-          </div>
+    <div class="calendar">
+      <div class="calendar-header" id="day">
+        <h3>Day</h3>
       </div>
+      <div class="calendar-header" id="To-do">
+        <h3>To-Do</h3>
+        <img src="Todo.png" alt="To-do list">
+      </div>
+      <div class="calendar-header" id="homework">
+        <h3>Homework</h3>
+        <img src="Assignments.png" alt="Homework of the day">
+      </div>
+
+      <div id="første" class="dag">
+        <h4>Monday</h4>
+      </div>
+      <div id="To-Do" class="dag">
+        <h4>Social Stories</h4>
+        <p>Write three Social Stories about recess and playing games with other people</p>
+        <h4>Math</h4>
+        <p>Exercise 1-7 in Chapter 3</p>
+      </div>
+      <div id="Homework" class="dag">
+        <h4>Science</h4>
+        <p>Boil water and mark the time and temperature that the water turns to gas. Then freeze
+        the water and note the temperature of the freezer and the time it takes for the water
+        to become ice</p>
+      </div>
+      <div id="andre" class="dag">
+        <h4>Tuesday</h4>
+      </div>
+      <div id="To-Do" class="dag">
+        <h4>Science</h4>
+        <p>Write a report on your homework</p>
+        <h4>Norwegian Language Comprehension</h4>
+        <p>Do games 1-3</p>
+      </div>
+      <div id="Homework" class="dag">
+        <h4>Religion</h4>
+        <p>Write an article about a Hindu god/godess of your choice</p>
+        <h4>Music</h4>
+        <p>Practice the flute</p>
+      </div>
+      <div id="tredje" class="dag">
+        <h4>Wednesday</h4>
+      </div>
+      <div id="To-Do" class="dag">
+        <h4>Music</h4>
+        <p>Learn to play "Morgenstemning" on your flute</p>
+        <h4>Religion</h4>
+        <p>Present your god/godess to your class</p>
+      </div>
+      <div id="Homework" class="dag">
+        <h4>English</h4>
+        <p>Write a Social Story about when it rains</p>
+        <h4>History</h4>
+        <p>Exercise 4-9 in Chapter 11</p>
+      </div>
+      <div id="fjerde" class="dag">
+        <h4>Thursday</h4>
+      </div>
+      <div id="To-Do" class="dag">
+        <h4>English</h4>
+        <p>Exercise 1-9 in Chapter 8</p>
+        <h4>History</h4>
+        <p>Exercise 10-15 in Chapter 11</p>
+      </div>
+      <div id="Homework" class="dag">
+        <h4>Norwegian</h4>
+        <p>Exercise 1-8 in Chapter 6</p>
+        <h4>Science</h4>
+        <p>Pick and press 5 flowers</p>
+      </div>
+      <div id="femte" class="dag">
+        <h4>Friday</h4>
+      </div>
+      <div id="To-Do" class="dag">
+        <h4>Science</h4>
+        <p>Write about the flowers you picked in your flora</p>
+        <h4>Norwegian Language Comprehension</h4>
+        <p>Do exercise 1-4</p>
+      </div>
+      <div id="Homework" class="dag">
+        <h4>Have Fun!!</h4>
+      </div>
+    </div>
+
 
 
     <div class="chat">
@@ -92,12 +113,14 @@
         <h3>Teacher Chat</h3>
         <h4>Feelings</h4>
       </div>
-      <img src="happy.png" alt="Emoji of feeling happy">
-      <img src="cool.png" alt="Emoji of feeling awesome">
-      <img src="confused.png" alt="Emoji of feeling confused">
-      <img src="sad.png" alt="Emoji of feeling sad">
-      <img src="scared.png" alt="Emoji of feeling scared">
-      <img src="meltdown.png" alt="Emoji of having a meltdown">
+      <div class="emoji">
+      <button type="button"><img src="happy.png" class="button-image" alt="Emoji of feeling happy"></button>
+      <button type="button"><img src="cool.png" class="button-image" alt="Emoji of feeling awesome"></button>
+      <button type="button"><img src="confused.png" class="button-image" alt="Emoji of feeling confused"></button>
+      <button type="button"><img src="sad.png" class="button-image" alt="Emoji of feeling sad"></button>
+      <button type="button"><img src="scared.png" class="button-image" alt="Emoji of feeling scared"></button>
+      <button type="button"><img src="meltdown.png" class="button-image" alt="Emoji of having a meltdown"></button>
+      </div>
       <div class="container" id="light">
         <img src="myAvatar.png" alt="Avatar teacher">
         <p>How are your studies going?</p>
@@ -105,7 +128,7 @@
       </div>
       <div class="container" id="dark">
         <img src="train.jpg" id="right" alt="Avatar (of train) - child">
-        <p>No</p>
+        <p id="rightside-dialog">No</p>
         <span id="left" class="time">13.16</span>
       </div>
       <div class="container" id="light">
@@ -115,16 +138,15 @@
       </div>
       <div class="container" id="dark">
         <img src="train.jpg" id="right" alt="Avatar (of train) - child">
-        <img src="meltdown.png" alt="Emoji of having a meltdown">
+        <img src="meltdown.png" id="rightside-dialog" alt="Emoji of having a meltdown">
         <span id="left" class="time">13.20</span>
       </div>
       <div class="container" id="light">
         <img src="myAvatar.png" alt="Avatar teacher">
         <p>I'm so sorry! You have done so well today! I think you should
-        take a break or go to your safe space.</p>
-        <span id="right" class="time">13.24</span>
+          take a break or go to your safe space.</p>
+          <span id="right" class="time">13.24</span>
+        </div>
       </div>
-    </div>
-  </body>
-
-</html>
+    </body>
+  </html>
