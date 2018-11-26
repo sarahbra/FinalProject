@@ -30,8 +30,8 @@ body {
 .timetable {
   position: fixed;
   display: grid;
-  width: 89.5%;
-  margin-left: 9%;
+  width: 85.5%;
+  margin-left: 13%;
   height: auto;
   grid-template-columns: 1fr 2fr 3fr;
   color: #666;
@@ -126,7 +126,7 @@ body {
   max-width: 20%;
   border: 2px solid #666;
   overflow-y: scroll;
-  height: 505px;;
+  height: 68%;
 }
 
 .chat button:hover {
