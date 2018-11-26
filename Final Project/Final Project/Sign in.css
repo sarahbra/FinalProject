@@ -10,8 +10,8 @@ body{
   width: 100%;
   opacity: 0.9;
   height: 100%;
-
 }
+
 .signin-box{
   max-width:330px;
   max-height:600px;
@@ -23,6 +23,7 @@ body{
   box-sizing: border-box;
   padding:60px 42px;
 }
+
 .avatar{
   width:100px;
   height:100px;
@@ -31,20 +32,25 @@ body{
   top:-10%;
   left: calc(50% - 50px);
 }
+
 h1{
   text-align:center;
 }
+
 .signin-box p{
   font-weight:bold;
 }
+
 .signin-box input{
   width:240px;
   margin-bottom:20px;
 }
+
 .signin-box input[type="submit"]{
   width: 100%;
   padding: 10px;
 }
+
 .signin-box a:hover{
  color:blue;
 }
