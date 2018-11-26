@@ -186,3 +186,33 @@ img{
   float: right;
   color: #666;
 }
+
+.storyflex {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-basis: 50px;
+  margin-top: 50px;
+}
+
+#storyboxes {
+  height: 200px;
+  width: auto;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+
+}
+
+#arrow1 {
+  margin-right: :20px;
+}
+
+#arrow2{
+  margin-left: 20px;
+}
