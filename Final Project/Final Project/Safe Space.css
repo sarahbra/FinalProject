@@ -7,9 +7,9 @@ color: white;
   display: none;
 }
 
-@keyframes go-left-right {      
+@keyframes go-left-right {
   from { left: -290px; }
-  to { left: calc(50% - 10px); }
+  to { left: calc(100% - 50px); }
 }
 
 .train {
