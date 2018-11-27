@@ -108,7 +108,7 @@
 
 
 
-    <div class="chat">
+    <div class="chat" id="chat">
       <div class="chat-header">
         <h3>Teacher Chat</h3>
         <h4>Feelings</h4>
@@ -148,5 +148,22 @@
           <span id="right" class="time">13.24</span>
         </div>
       </div>
+
+      <script>
+      window.onscroll = function() {moveChat()};
+
+      var ch = document.getElementById("chat");
+      var sticky = ch.offsetTop;
+
+      function moveChat() {
+        if (window.pageYOffset > sticky) {
+          ch.classList.add("sticky");
+        } else {
+          ch.classList.remove("sticky");
+        }
+      }
+
+      </script>
+
     </body>
   </html>

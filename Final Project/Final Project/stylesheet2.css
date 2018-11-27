@@ -118,13 +118,21 @@ body{
 }
 
 .chat {
-  margin-top: -1039px;
-  position: fixed;
-  margin-left: 79%;
-  max-width: 300px;
+  margin-top: -69.4%;
+  position: relative;
+  margin-left: 80%;
+  max-width: 20%;
   border: 2px solid #666;
   overflow-y: scroll;
-  height: 505px;
+  height: 68%;
+}
+
+.sticky {
+  position: fixed;
+  margin-left: 79.1%;
+  margin-top: -85.4%;
+  height: 100%;
+  width: 100%;
 }
 
 .chat button:hover {
