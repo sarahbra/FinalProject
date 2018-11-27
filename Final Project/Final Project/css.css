@@ -18,7 +18,7 @@ body {
 }
 
 .header {
-  margin-top: -0.7%;
+  margin-top: -0.8%;
   margin-bottom: 0%;
   margin-right: 0%;
   max-width: 100%;
@@ -28,10 +28,10 @@ body {
 }
 
 .timetable {
-  position: fixed;
+  position: relative;
   display: grid;
-  width: 85.5%;
-  margin-left: 13%;
+  width: 86.2%;
+  margin-left: 13.6%;
   height: auto;
   grid-template-columns: 1fr 2fr 3fr;
   color: #666;
@@ -47,8 +47,8 @@ body {
 
 .midcontent {
   width: 65.5%;
-  margin-top: 18%;
-  margin-left: 20%;
+  margin-top: 4.5%;
+  margin-left: 17%;
 }
 
 .midcontent h2{
@@ -63,7 +63,7 @@ body {
   position: relative;
   margin-top: -10%;
   text-align: center;
-  padding: 5%;
+  padding: 6%;
   border-radius: 50%;
   background: lightpink;
   z-index: 0;
@@ -119,6 +119,8 @@ body {
 }
 
 #navigationbar{
+  position: relative;
+  margin-top: -93%;
   max-width: 100%;
   border-top: 2px solid #666;
   border-left: 2px solid #666;
@@ -277,9 +279,10 @@ body {
 }
 
 .mood-container {
-  width: 68%;
-  margin-left: 10%;
-  margin-top: 14%;
+  position: relative;
+  margin-top: 0.7%;
+  width: 60%;
+  margin-left: 14%;
   background-color: lightgoldenrodyellow;
 }
 
@@ -312,7 +315,7 @@ body {
   justify-content:flex-start;
   align-items: center;
   flex-direction: column;
-  padding-top: 50px;
+  padding-top: 5%;
 }
 
 #storyboxes {
