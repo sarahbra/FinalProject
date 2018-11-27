@@ -146,13 +146,13 @@ body {
 }
 
 .chat {
-  margin-top: -31%;
+  bottom: 0%;
   position: fixed;
   margin-left: 79%;
   max-width: 20%;
   border: 2px solid #666;
   overflow-y: scroll;
-  height: 65.8%;
+  height: 67%;
 }
 
 .chat button:hover {
@@ -311,6 +311,10 @@ body {
 }
 
 .storyflex {
+  position: relative;
+  width: 60%;
+  margin-left: 14%;
+  margin-right: 20%;
   display: flex;
   justify-content:flex-start;
   align-items: center;
@@ -323,6 +327,10 @@ body {
 }
 
 .footer {
+  position: relative;
+  width: 60%;
+  margin-left: 14%;
+  margin-right: 20%;
   display:flex;
   justify-content: center;
   align-items: center;
