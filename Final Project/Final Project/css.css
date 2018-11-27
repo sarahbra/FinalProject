@@ -152,7 +152,7 @@ body {
   max-width: 20%;
   border: 2px solid #666;
   overflow-y: scroll;
-  height: 67%;
+  height: 67.1%;
 }
 
 .chat button:hover {
@@ -281,7 +281,7 @@ body {
 .mood-container {
   position: relative;
   margin-top: 0.7%;
-  width: 60%;
+  width: 65.7%;
   margin-left: 14%;
   background-color: lightgoldenrodyellow;
 }

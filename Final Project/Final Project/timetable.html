@@ -150,12 +150,12 @@
       </div>
 
       <script>
-      window.onscroll = function() {moveChat()};
+      window.onscroll = function() {move()};
 
       var ch = document.getElementById("chat");
       var sticky = ch.offsetTop;
 
-      function moveChat() {
+      function move() {
         if (window.pageYOffset > sticky) {
           ch.classList.add("sticky");
         } else {

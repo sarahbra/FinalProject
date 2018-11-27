@@ -118,13 +118,13 @@ body{
 }
 
 .chat {
-  margin-top: -69.4%;
-  position: relative;
-  margin-left: 80%;
+  margin-top: -68.35%;
+  position: fixed;
+  margin-left: 79%;
   max-width: 20%;
   border: 2px solid #666;
   overflow-y: scroll;
-  height: 68%;
+  height: 65.3%;
 }
 
 .sticky {
