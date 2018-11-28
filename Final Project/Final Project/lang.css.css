@@ -1,10 +1,8 @@
-* {box-sizing:border-box}
-
 h1,h2 {
-    text-align: center; 
-    color: grey; 
-    font-family: arial; 
-    font-size-adjust: auto; 
+    text-align: center;
+    color: grey;
+    font-family: arial;
+    font-size-adjust: auto;
 }
 /* Slideshow container */
 .slideshow-container {
@@ -90,11 +88,11 @@ h1,h2 {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
