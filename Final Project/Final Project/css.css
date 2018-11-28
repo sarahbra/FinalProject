@@ -101,13 +101,14 @@ body {
   margin-right: 15px;
   margin-bottom: 2px;
   position: relative;
+  text-transform: uppercase;
   cursor: pointer;
   width: auto;
   background-color: #eee;
 }
 
 .timetablebody button:hover {
-  opacity: 0.6;
+  background-color: lightgreen;
 }
 
 .button-image{
@@ -116,9 +117,9 @@ body {
 }
 
 .container img {
-  border-radius: 50%;
   max-width: 60px;
   padding: 5px;
+  border-radius: 50%;
 }
 
 .secondboxes{
@@ -176,22 +177,16 @@ body {
 }
 
 .container {
-    border: 2px solid #A0A0A0;
+    padding: 25px;
+    border: 1px solid #666;
     background-color: #f1f1f1;
-    border-radius: 7px;
-    padding: 10px;
     margin: 5px 5px;
+    border-radius: 10%;;
 }
 
 #dark {
-  border: 2px solid #779ecb;
+  border: 1px solid #666;
   background-color: #E4F6F8;
-}
-
-.container::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 
 .chat h3{
@@ -219,6 +214,10 @@ body {
 .chat-header {
   background-color: #666;
   margin-top: -15px;
+}
+
+.chat button {
+  border: 2px solid #666;
 }
 
 .time {
