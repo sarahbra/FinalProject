@@ -118,8 +118,9 @@ body{
 }
 
 .chat {
-  margin-top: -68.35%;
+  background-color: #779ecb;
   position: fixed;
+  bottom: 0%;
   margin-left: 79%;
   max-width: 20%;
   border: 2px solid #666;
@@ -193,7 +194,7 @@ body{
 }
 
 .chat-header {
-  background-color: #779ecb;
+  background-color: #666;
   margin-top: -15px;
 }
 
