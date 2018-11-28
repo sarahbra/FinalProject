@@ -54,6 +54,7 @@ body{
 
 .add button:hover {
   background-color: lightgreen;
+  cursor: pointer;
 }
 
 .calendar {
@@ -99,18 +100,15 @@ body{
 }
 
 .dag button{
-  display: grid;
-  position: relative;
-  cursor: pointer;
-  width: auto;
   background-color: lightgrey;
-  margin-top: 20px;
-  margin-bottom: -20px;
-  margin-left: 70%;
+  float: right;
+  margin-top: -12%;
+  margin-right: 5%;
 }
 
 .dag button:hover{
   background-color: lightgreen;
+  cursor: pointer;
 }
 
 .dag button img {
@@ -138,7 +136,7 @@ body{
 
 .chat button:hover {
   cursor: pointer;
-  background: lightblue;
+  background: lightgreen;
 }
 
 .button-image{
