@@ -27,6 +27,11 @@
              <a id ="" ><img  src="" width="" height=""></a>
        </div>
 
+    <div class="resize-button">
+      <button class="resizeL" onclick="resizeLarge()">A</button>
+      <button class="resizeS" onclick="resizeSmall()">A</button>
+    </div>
+
     <div class="header" id="topname">
       <h1 class="topname"><b>Final Project</b></h1>
       <h1 class="topname2"><b>Prosjekt navn.</b></h1>
@@ -41,7 +46,7 @@
           </div>
           <div>
                 <h2></h2>
-                <p></p>
+                <p id="tekst">TEst teste test</p>
                 <p><figure class="img1">
                 <img src="" width="" height=""><figcaption> <a  href="#"></a> </figcaption></figure></p>
           </div>
@@ -122,5 +127,14 @@
               </div>
           </div>
 
+  <script>
+  function resizeSmall() {
+    document.getElementById("tekst").style.fontSize="100%"
+  }
+
+  function resizeLarge() {
+    document.getElementById("tekst").style.fontSize="200%"
+  }
+  </script>
   </body>
 </html>
