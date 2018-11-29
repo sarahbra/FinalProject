@@ -156,7 +156,7 @@ body {
 
 .chat button:hover {
   cursor: pointer;
-  background: lightblue;
+  background: lightgreen;
 }
 
 .container {
@@ -265,7 +265,6 @@ body {
 }
 
 #mood h2 {
-    font-family: sans-serif;
     font-size: 60px;
     background-color: lightpink;
     padding: 20px;
