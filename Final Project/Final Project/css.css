@@ -169,6 +169,15 @@ body {
   border: 2px solid #666;
   overflow-y: scroll;
   height: 67.1%;
+<<<<<<< HEAD
+=======
+}
+
+@media screen and (max-width: 800px) {
+  .chat {
+    display: none;
+  }
+>>>>>>> fikse-homework
 }
 
 .chat button:hover {
@@ -367,17 +376,26 @@ body {
 }
 
 }
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+
+.homework-container {
+
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
+.homework-slides {
+  margin-top: 0%;
+  margin-left: 13%;
+  width: 67%;
+
 }
+
+.homework {
+  display: none;
+  height: 100%
+  width: 50%;
+}
+
+
+
 
 /* Next & previous buttons */
 .prev, .next {
