@@ -169,15 +169,12 @@ body {
   border: 2px solid #666;
   overflow-y: scroll;
   height: 67.1%;
-<<<<<<< HEAD
-=======
 }
 
 @media screen and (max-width: 800px) {
   .chat {
     display: none;
   }
->>>>>>> fikse-homework
 }
 
 .chat button:hover {
