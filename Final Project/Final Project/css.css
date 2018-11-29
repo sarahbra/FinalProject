@@ -153,6 +153,11 @@ body {
   overflow-y: scroll;
   height: 70%;
 }
+@media only screen and (max-width: 600px) {
+    .chat {
+        display: none;
+    }
+}
 
 .chat button:hover {
   cursor: pointer;
@@ -345,33 +350,21 @@ body {
 */
 
 
-.homework {
-  background-color: #779ecb;
-  color: white;
-  font-size: 16px;
-  display: inline-block;
-  border-radius: 8px;
-  margin-top: 15%;
-  margin-left: 15px;
-}
-
-.homework:hover{
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-.slideshow-container {
-  max-width: 1000px;
-  width: 67%;
-  height:30%;
-  margin-left: 13%;
+.homework-container {
   margin-top: 13%;
-  position: absolute;
+  margin-left: 15%;
+  width: 67%
 }
 
-/* Hide the images by default */
-.mySlides {
+.homework-slides {
+
+
+}
+
+.homework {
   display: none;
 }
+
 
 /* Next & previous buttons */
 .prev, .next {

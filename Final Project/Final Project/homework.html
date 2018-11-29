@@ -8,10 +8,13 @@
 </head>
 
 <body>
+  <!-- Header with date -->
   <div class="header">
     <h2>Monday 17. January</h2>
     <h3>2020</h3>
   </div>
+
+  <!-- timetable and to-do list -->
   <div class="timetable">
     <div id="time" class="columntitle">
       <h4>Time</h4>
@@ -76,6 +79,7 @@
     </div>
   </div>
 
+<!-- Navigation bar -->
   <div class="secondboxes">
         <div id="navigationbar">
             <a  href="./Sign in.html" onclick="alert('Good Job! Bye')"> Hi Henriette! <br> <img src="train.jpg" alt="train" width="50" height="50"><br>Sign out</a>
@@ -83,20 +87,38 @@
             <a  href="timetable.html"><img src="Timetable.png" alt="Week Plan" width="50" height="50"><br>WEEK PLAN</a>
             <a  href="SafeSpace.html"><img src="safe place.png" alt="Safe Space" width="50" height="50"><br> SAFE SPACE</a>
             <a  href="mood.html"><img src="Mood.png" alt="Mood" width="50" height="50"><br>MOOD</a>
-            <a  href="socialstory.html"><img src="SocialStory.png" alt="Mood" width="50" height="50"><br>SOCIAL STORY</a>
+            <a  href="socialstory.html"><img src="SocialStory.png" alt="Social story" width="50" height="50"><br>SOCIAL STORY</a>
         </div>
   </div>
 
-<div class="homework-slides">
-  <img class="homework" src="homework.jpg" alt="">
-  <img class="homework" src="homework1.jpg" alt="">
-  <img class="homework" src="homework2.jpg" alt="">
-  <img class="homework" src="homework3.jpg" alt="">
-  <img class="homework" src="homework4.jpg" alt="">
-  <img class="homework" src="homework5.jpg" alt="">
-  <img class="homework" src="homework6.jpg" alt="">
-  <img class="homework" src="homework7.jpg" alt="">
 
+<!-- content -->
+<div class="homework-container"
+  <div class="homework-slides">
+    <button class="select-slide" onclick="showSlide(1)">1</button>
+    <button class="select-slide" onclick="showSlide(2)">2</button>
+    <button class="select-slide" onclick="showSlide(3)">3</button>
+    <button class="select-slide" onclick="showSlide(4)">4</button>
+    <button class="select-slide" onclick="showSlide(5)">5</button>
+    <button class="select-slide" onclick="showSlide(6)">6</button>
+    <button class="select-slide" onclick="showSlide(7)">7</button>
+    <button class="select-slide" onclick="showSlide(8)">8</button>
+  <div class="homework-slides">
+    <img class="homework" src="homework.jpg" alt="First slide in homework" width="800" height="600">
+    <img class="homework" src="homework1.jpg" alt="second slide in homework"  width="800" height="600">
+    <img class="homework" src="homework2.jpg" alt="third slide in homework" width="800" height="600">
+    <img class="homework" src="homework3.jpg" alt="fourth slide in homework" width="800" height="600">
+    <img class="homework" src="homework4.jpg" alt="fifth slide in homewokr" width="800" height="600">
+    <img class="homework" src="homework5.jpg" alt="sixth slide in homework" width="800" height="600">
+    <img class="homework" src="homework6.jpg" alt="seventh slide in homework" width="800" height="600">
+    <img class="homework" src="homework7.jpg" alt="eight slide in homework" width="800" height="600">
+
+    <button class="arrows" onclick="subtract()">&#10094;</button>
+    <button class="arrows" onclick="add()">&#10095;</button>
+  </div>
+</div>
+
+<!-- Chat -->
 <div class="chat" id="chat">
   <div class="chat-header">
     <h3>Teacher Chat</h3>
@@ -138,17 +160,23 @@
   </div>
 </div>
 
-
+<!-- Script for slideshow -->
 <script>
 var i = 1;
 show(i)
+showSlide(i)
 
-function add(n) {
+function add() {
   show(i+=1);
 }
 
-function suntract(n) {
+function subtract() {
   show(i-=1);
+}
+
+function showSlide(n) {
+  i = n;
+  show(i);
 }
 
 function show(n){
