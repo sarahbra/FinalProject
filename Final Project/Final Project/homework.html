@@ -8,10 +8,13 @@
 </head>
 
 <body>
+  <!-- Header with date -->
   <div class="header">
     <h2>Monday 17. January</h2>
     <h3>2020</h3>
   </div>
+
+  <!-- timetable and to-do list -->
   <div class="timetable">
     <div id="time" class="columntitle">
       <h4>Time</h4>
@@ -76,163 +79,119 @@
     </div>
   </div>
 
+<!-- Navigation bar -->
   <div class="secondboxes">
         <div id="navigationbar">
-            <a  href="./Signin.html" onclick="alert('Good Job! Bye')"> Hi Henriette! <br> <img src="./train.jpg" alt="train" width="50" height="50"><br>Sign out</a>
-            <a  href="main.html"><img id="home" src="house.png" alt="Home Page" width="50" height="50"><br>HOME</a>
-            <a  href="timetable.html"><img src="Timetable.png" alt="Week Plan" width="50" height="50"><br>WEEK PLAN</a>
-            <a  href="SafeSpace.html"><img src="safe place.png" alt="Safe Space" width="50" height="50"><br> SAFE SPACE</a>
-            <a  href="mood.html"><img src="Mood.png" alt="Mood" width="50" height="50"><br>MOOD</a>
-            <a  href="socialstory.html"><img src="SocialStory.png" alt="Mood" width="50" height="50"><br>SOCIAL STORY</a>
+            <a  href="./Sign in.html" onclick="alert('Good Job! Bye')"> Hi Henriette! <br> <img src="Picturess/train.jpg" alt="train" width="50" height="50"><br>Sign out</a>
+            <a  href="main.html"><img id="home" src="Pictures/house.png" alt="Home Page" width="50" height="50"><br>HOME</a>
+            <a  href="timetable.html"><img src="Pictures/Timetable.png" alt="Week Plan" width="50" height="50"><br>WEEK PLAN</a>
+            <a  href="SafeSpace.html"><img src="Pictures/safe place.png" alt="Safe Space" width="50" height="50"><br> SAFE SPACE</a>
+            <a  href="mood.html"><img src="Pictures/Mood.png" alt="Mood" width="50" height="50"><br>MOOD</a>
+            <a  href="socialstory.html"><img src="Pictures/SocialStory.png" alt="Social story" width="50" height="50"><br>SOCIAL STORY</a>
         </div>
   </div>
 
-  <div class="language-container">
-    <!-- Spør imorgen
-    <div class="header" id="header-languagecomp">
-      <h1>Language comprehension</h1><h2>Exercises <br> Week 47</h2>
-    </div>
-  -->
-      <!-- Slideshow container -->
-      <div class="slideshow-container">
 
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-          <div class="numbertext">1 / 8</div>
-          <img src="./homework.jpg" style="width:100%">
-          <div class="text">Caption Text</div>
-        </div>
+<!-- content -->
+<div class="homework-container">
+  <div class="homework-slides">
+    <button class="select-slide" onclick="showSlide(1)">1</button>
+    <button class="select-slide" onclick="showSlide(2)">2</button>
+    <button class="select-slide" onclick="showSlide(3)">3</button>
+    <button class="select-slide" onclick="showSlide(4)">4</button>
+    <button class="select-slide" onclick="showSlide(5)">5</button>
+    <button class="select-slide" onclick="showSlide(6)">6</button>
+    <button class="select-slide" onclick="showSlide(7)">7</button>
+    <button class="select-slide" onclick="showSlide(8)">8</button>
 
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 8</div>
-          <img src="./homework1.jpg" style="width:100%">
-          <div class="text">Caption Two</div>
-        </div>
+    <img class="homework" src="Pictures/homework.jpg" alt="First slide in homework" width="800" height="600">
+    <img class="homework" src="Pictures/homework1.jpg" alt="second slide in homework"  width="800" height="600">
+    <img class="homework" src="Pictures/homework2.jpg" alt="third slide in homework" width="800" height="600">
+    <img class="homework" src="Pictures/homework3.jpg" alt="fourth slide in homework" width="800" height="600">
+    <img class="homework" src="Pictures/homework4.jpg" alt="fifth slide in homewokr" width="800" height="600">
+    <img class="homework" src="Pictures/homework5.jpg" alt="sixth slide in homework" width="800" height="600">
+    <img class="homework" src="Pictures/homework6.jpg" alt="seventh slide in homework" width="800" height="600">
+    <img class="homework" src="Pictures/homework7.jpg" alt="eight slide in homework" width="800" height="600">
 
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 8</div>
-          <img src="./homework2.jpg" style="width:100%">
-          <div class="text">Caption Three</div>
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">4 / 8</div>
-          <img src="./homework3.jpg" style="width:100%">
-          <div class="text">Caption Four</div>
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">5 / 8</div>
-          <img src="./homework4.jpg" style="width:100%">
-          <div class="text">Caption Five</div>
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">6 / 8</div>
-          <img src="./homework5.jpg" style="width:100%">
-          <div class="text">Caption Six</div>
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">7 / 8</div>
-          <img src="./homework6.jpg" style="width:100%">
-          <div class="text">Caption Seven</div>
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">8 / 8</div>
-          <img src="./homework7.jpg" style="width:100%">
-          <div class="text">Caption Eight</div>
-        </div>
-
-  <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  </div>
-  <br>
-
-<!-- The dots/circles -->
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
+    <button class="arrows" onclick="subtract()">&#10094;</button>
+    <button class="arrows" onclick="add()">&#10095;</button>
   </div>
 </div>
 
+<!-- Chat -->
 <div class="chat" id="chat">
   <div class="chat-header">
     <h3>Teacher Chat</h3>
     <h4>Feelings</h4>
   </div>
   <div class="emoji">
-  <button type="button"><img class="button-image" src="./happy.png" id="emoji" alt="Emoji of feeling happy"></button>
-  <button type="button"><img class="button-image" src="./cool.png" id="emoji" alt="Emoji of feeling awesome"></button>
-  <button type="button"><img class="button-image" src="./confused.png" id="emoji" alt="Emoji of feeling confused"></button>
-  <button type="button"><img class="button-image" src="./sad.png" id="emoji" alt="Emoji of feeling sad"></button>
-  <button type="button"><img class="button-image" src="./scared.png" id="emoji" alt="Emoji of feeling scared"></button>
-  <button type="button"><img class="button-image" src="./meltdown.png" id="emoji" alt="Emoji of having a meltdown"></button>
+  <button type="button"><img class="button-image" src="Pictures/happy.png" id="emoji" alt="Emoji of feeling happy"></button>
+  <button type="button"><img class="button-image" src="Pictures/cool.png" id="emoji" alt="Emoji of feeling awesome"></button>
+  <button type="button"><img class="button-image" src="Pictures/confused.png" id="emoji" alt="Emoji of feeling confused"></button>
+  <button type="button"><img class="button-image" src="Pictures/sad.png" id="emoji" alt="Emoji of feeling sad"></button>
+  <button type="button"><img class="button-image" src="Pictures/scared.png" id="emoji" alt="Emoji of feeling scared"></button>
+  <button type="button"><img class="button-image" src="Pictures/meltdown.png" id="emoji" alt="Emoji of having a meltdown"></button>
   </div>
   <div class="container" id="light">
-    <img src="./myAvatar.png" alt="Avatar teacher">
+    <img src="Pictures/myAvatar.png" alt="Avatar teacher">
     <p>How are your studies going?</p>
     <span id="right" class="time">13.15</span>
   </div>
   <div class="container" id="dark">
-    <img src="./train.jpg" id="right" alt="Avatar (of train) - child">
+    <img src="Pictures/train.jpg" id="right" alt="Avatar (of train) - child">
     <p id="rightside-dialog">No</p>
     <span id="left" class="time">13.16</span>
   </div>
   <div class="container" id="light">
-    <img src="./myAvatar.png" alt="Avatar teacher">
+    <img src="Pictures/myAvatar.png" alt="Avatar teacher">
     <p>How are you feeling?</p>
     <span id="right" class="time">13.18</span>
   </div>
   <div class="container" id="dark">
-    <img src="./train.jpg" id="right" alt="Avatar (of train) - child">
-    <img src="meltdown.png" id="rightside-dialog" alt="Emoji of having a meltdown">
+    <img src="Pictures/train.jpg" id="right" alt="Avatar (of train) - child">
+    <img src="Pictures/meltdown.png" id="rightside-dialog" alt="Emoji of having a meltdown">
     <span id="left" class="time">13.20</span>
   </div>
   <div class="container" id="light">
-    <img src="./myAvatar.png" alt="Avatar teacher">
+    <img src="Pictures/myAvatar.png" alt="Avatar teacher">
     <p>I'm so sorry! You have done so well today! I think you should
     take a break or go to your safe space.</p>
     <span id="right" class="time">13.24</span>
   </div>
 </div>
 
-
+<!-- Script for slideshow -->
 <script>
-var slideIndex = 0;
-showSlides();
+var i = 1;
+show(i)
+showSlide(i)
 
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
+function add() {
+  show(i+=1);
 }
 
-window.onscroll = function() {move()};
+function subtract() {
+  show(i-=1);
+}
 
-var ch = document.getElementById("chat");
-var sticky = ch.offsetTop;
+function showSlide(n) {
+  i = n;
+  show(i);
+}
 
-function move() {
-  if (window.pageYOffset > sticky) {
-    ch.classList.add("sticky");
-  } else {
-    ch.classList.remove("sticky");
+function show(n){
+  var j;
+  var x = document.getElementsByClassName("homework");
+  if (n>x.length) {
+    i=x.lenght;
   }
+  if (n<1) {
+    i = 1;
+  }
+  for (j= 0; j<x.length; j++) {
+    x[j].style.display ="none";
+  }
+  x[i-1].style.display="block";
 }
 
 </script>
