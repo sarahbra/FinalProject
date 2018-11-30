@@ -67,7 +67,7 @@ body {
 
 
 .timetable {
-  float: right;
+  float: left;
   display: grid;
   grid-template-columns: auto auto auto;
   position: relative;
@@ -91,11 +91,25 @@ body {
   position: relative;
   float: left;
   max-width: 100%;
-  width: 65.5%;
+  width: 80%;
+  min-width: inherit;
   padding-top: 4%;
   margin-top: inherit;
   top: 50%;
-  margin-left: 17%;
+  margin-left: 15%;
+}
+
+.midcontent2 {
+  position: relative;
+  float: left;
+  max-width: 100%;
+  width: 80%;
+  min-width: inherit;
+
+  margin-top: inherit;
+  top: 50%;
+/*  margin-left: 17%;*/
+  margin-left: 15%;
 }
 
 .midcontent h2{
@@ -177,6 +191,7 @@ body {
   border-left: 2px solid #666;
   border-right: 2px solid #666;
   height: 100%;
+  max-height: 150%;
 }
 
 #navigationbar a {
@@ -344,7 +359,7 @@ body {
   position: relative;
   margin-top: 0.7%;
   width: 65.7%;
-  margin-left: 14%;
+
   background-color: lightgoldenrodyellow;
 }
 
@@ -381,10 +396,7 @@ body {
   color: #666;
   text-transform: uppercase;
   position: relative;
-  width: 60%;
-  margin-left: 14%;
-  padding-left: 10%;
-  margin-right: 20%;
+
   display: flex;
   justify-content:flex-start;
   align-items: center;
@@ -418,20 +430,20 @@ body {
 }
 
 .homework-container {
-
+  float: left;
 }
 
 .homework-slides {
   margin-top: 0%;
-  margin-left: 13%;
-  width: 67%;
+  width: 100%;
+  max-width: 100%;
 
 }
 
 .homework {
   display: none;
-  height: 100%
-  width: 50%;
+  height: auto;
+  max-width: 100%;
 }
 
 
