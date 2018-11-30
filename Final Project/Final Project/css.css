@@ -129,7 +129,8 @@ body {
 #navigationbar{
   position: relative;
   margin-top: -93%;
-  max-width: 100%;
+  right: 0%;
+  width: auto;
   border-top: 2px solid #666;
   border-left: 2px solid #666;
   border-right: 2px solid #666;
@@ -372,16 +373,13 @@ body {
   padding-left: 20px;
 }
 
-}
-
 .homework-container {
-
+  margin-left: 13.7%;
 }
 
 .homework-slides {
   margin-top: 0%;
-  margin-left: 13%;
-  width: 67%;
+  width: 100%;
 
 }
 
