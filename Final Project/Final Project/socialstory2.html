@@ -171,10 +171,8 @@
 
       <script>
         window.onscroll = function() {move()};
-
         var ch = document.getElementById("chat");
         var sticky = ch.offsetTop;
-
         function move() {
           if (window.pageYOffset > sticky) {
               ch.classList.add("sticky");
@@ -182,7 +180,6 @@
               ch.classList.remove("sticky");
           }
         }
-
       </script>
 
     </body>

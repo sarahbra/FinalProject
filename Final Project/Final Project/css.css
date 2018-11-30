@@ -67,7 +67,10 @@ body {
 
 
 .timetable {
+<<<<<<< HEAD
   float: left;
+=======
+>>>>>>> Sarah-sin-grein
   display: grid;
   grid-template-columns: auto auto auto;
   position: relative;
