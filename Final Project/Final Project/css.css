@@ -67,6 +67,7 @@ body {
 
 
 .timetable {
+  float: right;
   display: grid;
   grid-template-columns: auto auto auto;
   position: relative;
@@ -87,8 +88,13 @@ body {
 }
 
 .midcontent {
+  position: relative;
+  float: left;
+  max-width: 100%;
   width: 65.5%;
-  margin-top: 4.5%;
+  padding-top: 4%;
+  margin-top: inherit;
+  top: 50%;
   margin-left: 17%;
 }
 
@@ -102,6 +108,7 @@ body {
 
 .midcontent img {
   position: relative;
+  max-width: 100%;
   margin-top: -10%;
   text-align: center;
   padding: 6%;
@@ -158,12 +165,13 @@ body {
 }
 
 .secondboxes{
-  position: fixed;
+  position: absolute;
+  max-width: 14%;
 }
 
 #navigationbar{
   position: relative;
-  margin-top: -93%;
+/*  margin-top: -93%;*/
   max-width: 100%;
   border-top: 2px solid #666;
   border-left: 2px solid #666;
