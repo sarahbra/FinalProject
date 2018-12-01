@@ -89,88 +89,93 @@
             </div>
       </div>
 
-<div class="midcontent2">
-  <div class="mood-container">
-    <div class="header" id="mood">
-      <h2>How do you feel?</h2>
-      <h4>Click on one of the icons </h4>
-    </div>
-
-    <div class="box">
-      <a target="_blank" href="Pictures/img_forest.jpg"><img src="Pictures/Angry train.png" alt="Angry Thomas train" id="image"></a>
-      <div class="overlay">
-        <div class="text">Angry</div>
+    <!-- Chat -->
+    <div class="chat" id="chat">
+      <div class="chat-header">
+        <h3>Teacher Chat</h3>
+        <h4>Feelings</h4>
+      </div>
+      <div class="emoji">
+      <button type="button"><img class="button-image" src="Pictures/happy.png" id="emoji" alt="Emoji of feeling happy"></button>
+      <button type="button"><img class="button-image" src="Pictures/cool.png" id="emoji" alt="Emoji of feeling awesome"></button>
+      <button type="button"><img class="button-image" src="Pictures/confused.png" id="emoji" alt="Emoji of feeling confused"></button>
+      <button type="button"><img class="button-image" src="Pictures/sad.png" id="emoji" alt="Emoji of feeling sad"></button>
+      <button type="button"><img class="button-image" src="Pictures/scared.png" id="emoji" alt="Emoji of feeling scared"></button>
+      <button type="button"><img class="button-image" src="Pictures/meltdown.png" id="emoji" alt="Emoji of having a meltdown"></button>
+      </div>
+      <div class="container" id="light">
+        <img src="Pictures/myAvatar.png" alt="Avatar teacher">
+        <p>How are your studies going?</p>
+        <span id="right" class="time">13.15</span>
+      </div>
+      <div class="container" id="dark">
+        <img src="Pictures/train.jpg" id="right" alt="Avatar (of train) - child">
+        <p id="rightside-dialog">No</p>
+        <span id="left" class="time">13.16</span>
+      </div>
+      <div class="container" id="light">
+        <img src="Pictures/myAvatar.png" alt="Avatar teacher">
+        <p>How are you feeling?</p>
+        <span id="right" class="time">13.18</span>
+      </div>
+      <div class="container" id="dark">
+        <img src="Pictures/train.jpg" id="right" alt="Avatar (of train) - child">
+        <img src="Pictures/meltdown.png" id="rightside-dialog" alt="Emoji of having a meltdown">
+        <span id="left" class="time">13.20</span>
+      </div>
+      <div class="container" id="light">
+        <img src="Pictures/myAvatar.png" alt="Avatar teacher">
+        <p>I'm so sorry! You have done so well today! I think you should
+        take a break or go to your safe space.</p>
+        <span id="right" class="time">13.24</span>
       </div>
     </div>
 
-    <div class="box">
-      <a target="_blank" href="Pictures/img_forest.jpg">
-          <img src="Pictures/Happy train.png" id="image" alt="happy Thomas train">
-      </a>
-      <div class="overlay">
-        <div class="text">Happy</div>
-      </div>
-    </div>
+<!-- Header -->
+<div class="mood-container">
+<div class="header" id="mood">
+  <h2>How do you feel?</h2>
+  <h4>Click on one of the icons </h4>
+</div>
 
-    <div class="box">
-      <a target="_blank" href="Pictures/img_forest.jpg"> <img src="Pictures/Sad train.jpg" alt="sad Thomas train" id="image" >
-      </a>
-      <div class="overlay">
-        <div class="text">Sad</div>
-      </div>
-    </div>
+<!-- Angry  -->
 
-    <div class="box">
-        <a target="_blank" href=""> <img src="Pictures/Surprised train.jpg" alt="Suprised Thomas train" id="image" >
-        </a>
-        <div class="overlay">
-          <div class="text">Surprised</div>
-        </div>
-    </div>
+<div class="box">
+  <a target="_blank" href="./img_forest.jpg"><img src="Angry train.png" alt="Avatar" id="image"></a>
+  <div class="overlay">
+    <div class="text">Angry</div>
   </div>
 </div>
 
-  <!-- Chat -->
-  <div class="chat" id="chat">
-    <div class="chat-header">
-      <h3>Teacher Chat</h3>
-      <h4>Feelings</h4>
-    </div>
-    <div class="emoji">
-    <button type="button"><img class="button-image" src="Pictures/happy.png" id="emoji" alt="Emoji of feeling happy"></button>
-    <button type="button"><img class="button-image" src="Pictures/cool.png" id="emoji" alt="Emoji of feeling awesome"></button>
-    <button type="button"><img class="button-image" src="Pictures/confused.png" id="emoji" alt="Emoji of feeling confused"></button>
-    <button type="button"><img class="button-image" src="Pictures/sad.png" id="emoji" alt="Emoji of feeling sad"></button>
-    <button type="button"><img class="button-image" src="Pictures/scared.png" id="emoji" alt="Emoji of feeling scared"></button>
-    <button type="button"><img class="button-image" src="Pictures/meltdown.png" id="emoji" alt="Emoji of having a meltdown"></button>
-    </div>
-    <div class="container" id="light">
-      <img src="Pictures/myAvatar.png" alt="Avatar teacher">
-      <p>How are your studies going?</p>
-      <span id="right" class="time">13.15</span>
-    </div>
-    <div class="container" id="dark">
-      <img src="Pictures/train.jpg" id="right" alt="Avatar (of train) - child">
-      <p id="rightside-dialog">No</p>
-      <span id="left" class="time">13.16</span>
-    </div>
-    <div class="container" id="light">
-      <img src="Pictures/myAvatar.png" alt="Avatar teacher">
-      <p>How are you feeling?</p>
-      <span id="right" class="time">13.18</span>
-    </div>
-    <div class="container" id="dark">
-      <img src="Pictures/train.jpg" id="right" alt="Avatar (of train) - child">
-      <img src="Pictures/meltdown.png" id="rightside-dialog" alt="Emoji of having a meltdown">
-      <span id="left" class="time">13.20</span>
-    </div>
-    <div class="container" id="light">
-      <img src="Pictures/myAvatar.png" alt="Avatar teacher">
-      <p>I'm so sorry! You have done so well today! I think you should
-      take a break or go to your safe space.</p>
-      <span id="right" class="time">13.24</span>
-    </div>
+
+<!-- Happy -->
+ <div class="box">
+  <a target="_blank" href="./img_forest.jpg">
+      <img src="Happy train.png" id="image" alt="happy Thomas train">
+    </a>
+  <div class="overlay">
+    <div class="text">Happy</div>
   </div>
+</div>
+
+<!-- Sad  -->
+  <div class="box">
+  <a target="_blank" href="./img_forest.jpg"> <img src="Sad ./train.jpg" alt="sad Thomas train" id="image" >
+    </a>
+  <div class="overlay">
+    <div class="text">Sad</div>
+  </div>
+</div>
+
+<!-- Surprised -->
+  <div class="box">
+  <a target="_blank" href=""> <img src="./Surprised ./train.jpg" alt="Suprised Thomas train" id="image" >
+    </a>
+  <div class="overlay">
+    <div class="text">Surprised</div>
+  </div>
+</div>
+</div>
 
 </body>
 </html>
