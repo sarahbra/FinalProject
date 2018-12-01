@@ -138,12 +138,17 @@ body {font-size:16px;}
   margin-left: 5px;
 }
 
-button{
-  color: lightgrey;
+button {
+  background-color: lightgrey;
+  color: black;
+  padding: 10px;
+  margin-top: -20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 button:hover {
-  cursor: pointer;
   background-color: lightgreen;
 }
 
@@ -156,11 +161,6 @@ button:hover {
   height: 40px;
 }
 
-a {
-  text-decoration: none;
-  color: #666;
-}
-
 .resizeL {
   background-color: white;
   font-size: 200%;
@@ -168,9 +168,4 @@ a {
   float: right;
   width: 40px;
   height: 40px;
-}
-
-.references {
-  float: left;
-  border-top: 1px solid black;
 }
